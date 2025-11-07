@@ -16,6 +16,8 @@ yarn 1.22.0 or higher
 npm 6.x or higher
 ```
 
+**Note:** This project uses `cross-env` to ensure compatibility with Node.js 17+ which requires the `--openssl-legacy-provider` flag for older Webpack versions.
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
