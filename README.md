@@ -1,20 +1,19 @@
-# Gamanza React Code Assesment
+# Gamanza React Code Assessment
 
-Project built with React 16.13, [Material UI](https://material-ui.com/), And Typescript.
+Project built with React 16.14, [Material UI](https://material-ui.com/), and TypeScript.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Node JS v13.6.0
-yarn 1.22.0
-npm 6.13.4
-heroku-cli (for build to production)
+Node.js v16.x or higher
+yarn 1.22.0 or higher
+npm 6.x or higher
 ```
 
 ### Installing
@@ -33,7 +32,7 @@ Go to the root directory and run the following command
 yarn
 ```
 
-### Running the proyect
+### Running the project
 
 At the root folder run the following command:
 
@@ -41,37 +40,17 @@ At the root folder run the following command:
 yarn start
 ```
 
-## Deploy to Production
-
-Using heroku follow the next instructions:
-
-```
-heroku login
-heroku create gamanza-nayib-code-assessment --buildpack mars/create-react-app
-git push heroku master
-```
-
-After that when you want to deploy new changes just run the following command:
-
-```
-git push heroku master
-```
-
-## Online DEMO
-
-https://gamanza-nayib-code-assessment.herokuapp.com/
-
 
 ## Requirements not implemented
 
 1. Filters for characters
 2. Filters for episodes
 
-## Thinks to do with more time
+## Things to do with more time
 
-1. Research more about infinitive scroll 
-2. Adding more look and feel
-3. Try to separate API call and hooks
+1. Research more about infinite scroll
+2. Add more look and feel
+3. Try to separate API calls and hooks
 
 ## Bugs
 
